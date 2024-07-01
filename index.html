@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Vinny Horgan</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link">VH.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Highlights</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Vinny Horgan.</span></h1>
+        <h2 class="about__role">A curious 20 year old ready to take on the world.</h2>
+        <p class="about__desc">
+          Hello! I'm Vinny Horgan, a curious and driven 20 year old with a deep passion for computer science. I love working on low-level code and contributing to GitHub. Outside of tech, I'm an avid learner with interests in history, philosophy, and literature. I occasionally write poetry and enjoy creating websites for small businesses. I've also had the honor of delivering a TED talk on machine learning and AI. Always questioning, always learning, I thrive on new challenges and the pursuit of knowledge.
+        </p>
+
+        <div class="about__contact center">
+          <a href="">
+            <span class="btn btn--outline">Download CV</span>
+          </a>
+
+          <a
+            href="https://github.com/vinnyhorgan"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/vinnyhorgan"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <section class="section contact center">
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/s2Yfy8a_EcA?si=p0tBNm4H0CVUcNhl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Highlights</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Diploma in Electronic and Electrical Systems</h3>
+            <p class="project__description">
+              In my diploma studies I gained comprehensive knowledge and practical skills in circuit design, electronic systems and electrical technology.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Electronic systems</li>
+              <li class="project__stack-item">Circuit design</li>
+            </ul>
+
+            <a
+              href="https://hensemberger.edu.it/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Computer Science Enthusiast</h3>
+            <p class="project__description">
+              Learning computer science as a self taught for over 5 years. Driven by the wonder of how stuff works under the hood.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Computer Science</li>
+              <li class="project__stack-item">GitHub</li>
+            </ul>
+
+            <a
+              href="https://github.com/vinnyhorgan"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Curious Learner</h3>
+            <p class="project__description">
+              My passion for learning and facing new challenges drives me every day. My experience with the TED taught me about the importance of confidence. I love teaching and spreading knowledge.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Public Speaking</li>
+              <li class="project__stack-item">Teaching</li>
+            </ul>
+
+            <a
+              href="https://www.youtube.com/embed/s2Yfy8a_EcA?si=p0tBNm4H0CVUcNhl"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Computer Science</li>
+          <li class="skills__list-item btn btn--plain">Electrical Systems</li>
+          <li class="skills__list-item btn btn--plain">GitHub</li>
+          <li class="skills__list-item btn btn--plain">Web Development</li>
+          <li class="skills__list-item btn btn--plain">Public Speaking</li>
+          <li class="skills__list-item btn btn--plain">Teaching</li>
+          <li class="skills__list-item btn btn--plain">Problem Solving</li>
+          <li class="skills__list-item btn btn--plain">Minimalism</li>
+          <li class="skills__list-item btn btn--plain">Perfectionism</li>
+        </ul>
+      </section>
+
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:vinnyhorgan@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href=""
+        class="link footer__link"
+      >
+        Made with &hearts; by Vinny Horgan
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
